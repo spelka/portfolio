@@ -9,11 +9,11 @@ export const projects = [
     },
     {
         "id": 2,
-        "heading": "Heading 2",
-        "name": "Project 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "image": "tea-da-2",
-        "link": "#"
+        "heading": "To-Do App",
+        "name": "Web-based To-Do List",
+        "description": "Plan our your daily tasks with this handy web-based to-do list. Add and remove items as needed. Powered by Node.js, Angular7, and Boostrap4",
+        "image": "todo-app",
+        "link": "https://github.com/spelka/todo-app"
     },
     {
         "id": 3,
