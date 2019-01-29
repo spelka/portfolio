@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-project-item',
@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectItemComponent implements OnInit {
 
+  //accept binding 'project' and assign it to a local property project: any
+  @Input('project') project: any;
   constructor() { }
 
   ngOnInit() {
