@@ -11,17 +11,17 @@ export const projects = [
         "id": 2,
         "heading": "To-Do App",
         "name": "Web-based To-Do List",
-        "description": "Plan our your daily tasks with this handy web-based to-do list. Add and remove items as needed. Powered by Node.js, Angular7, and Boostrap4",
+        "description": "Plan our your daily tasks with this handy web-based to-do list. Add and remove items as needed. Created with Node.js, Angular7, and Boostrap4.",
         "image": "todo-app",
         "link": "https://github.com/spelka/todo-app"
     },
     {
         "id": 3,
-        "heading": "Heading 3",
-        "name": "Project 3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "image": "700x300",
-        "link": "#"
+        "heading": "Weather App",
+        "name": "Web-based Weather Forecast",
+        "description": "A minimalistic 5-day forecast for major cities across Canada. Accurate weather outlook is provided to you by the Dark Sky API. Created with Node.js, Angular7, and Bootstrap4.",
+        "image": "weather-app",
+        "link": "https://github.com/spelka/weather-web-app"
     },
 
 ];
