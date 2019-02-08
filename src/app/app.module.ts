@@ -9,13 +9,15 @@ import { AppRoutingModule, RoutingComponents } from './app-routing.module';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceListingComponent } from './experience-listing/experience-listing.component';
+import { ExperienceItemComponent } from './experience-item/experience-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectListingComponent,
     ProjectItemComponent, 
-    RoutingComponents, AboutMeComponent, ContactMeComponent, ExperienceComponent
+    RoutingComponents, AboutMeComponent, ContactMeComponent, ExperienceComponent, ExperienceListingComponent, ExperienceItemComponent
   ],
   imports: [
     BrowserModule,
