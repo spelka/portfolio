@@ -5,12 +5,12 @@ export const experiences = [
         'startDate' : 'February 2018',
         'endDate' : 'July 2018',
         'responsibilities' : [
-            'Using Saltstack for configuration management, application, and custom software deployment.',
-            'Created scripts using Saltstack and Python to deploy third party software and custom MDA Software to Windows and Linux Environments.',
-            'Created Python and Shell scripts.',
-            'Source Control Configurations and Scripts through GIT.',
-            'Participated in an Agile Development Environment.',
-            'Infrastructure automation for both Windows and Linux.'
+            { "item" : 'Using Saltstack for configuration management, application, and custom software deployment.'},
+            { "item" : 'Created scripts using Saltstack and Python to deploy third party software and custom MDA Software to Windows and Linux Environments.'},
+            { "item" : 'Created Python and Shell scripts.'},
+            { "item" : 'Source Control Configurations and Scripts through GIT.'},
+            { "item" : 'Participated in an Agile Development Environment.'},
+            { "item" : 'Infrastructure automation for both Windows and Linux.' }
         ]
     },
     {
@@ -19,11 +19,11 @@ export const experiences = [
         'startDate' : 'July 2016',
         'endDate' : 'February 2018',
         'responsibilities' : [
-            'Learned enterprise ecosystem of software to enable ground systems to communicate with antennas and satellites.',
-            'Deep understanding in communication between software.',
-            'Test, Debug various types of Software on different platforms (Windows based, Linux based).',
-            'Participate in software system selloff cycle (dry Run, sell off, onsite deployment, customer training).',
-            'Test Engineer (investigate customer systems remotely, reproduce errors locally, debug and pinpoint point of failure, work with developers to resolve bugs).'
+            { "item" : 'Learned enterprise ecosystem of software to enable ground systems to communicate with antennas and satellites.'},
+            { "item" : 'Deep understanding in communication between software.'},
+            { "item" : 'Test, Debug various types of Software on different platforms (Windows based, Linux based).'},
+            { "item" : 'Participate in software system selloff cycle (dry Run, sell off, onsite deployment, customer training).'},
+            { "item" : 'Test Engineer (investigate customer systems remotely, reproduce errors locally, debug and pinpoint point of failure, work with developers to resolve bugs).'}
         ]
     },
     {
@@ -32,11 +32,11 @@ export const experiences = [
         'startDate' : 'May 2015',
         'endDate' : 'June 2016',
         'responsibilities' : [
-            'Designed and implemented an automated testing framework.',
-            'Implemented Globalization and Localization requirements as required by clients.',
-            'EMV terminal and host certification with VISA, MasterCard, American Express, and Discover.',
-            'Providing timely and thorough analysis and support for clients.',
-            'Detailed and thorough testing of software before release deadlines.'
+            { "item" : 'Designed and implemented an automated testing framework.'},
+            { "item" : 'Implemented Globalization and Localization requirements as required by clients.'},
+            { "item" : 'EMV terminal and host certification with VISA, MasterCard, American Express, and Discover.'},
+            { "item" : 'Providing timely and thorough analysis and support for clients.'},
+            { "item" : 'Detailed and thorough testing of software before release deadlines.'}
         ]
     }
 ]
