@@ -6,6 +6,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ExperienceListingComponent } from './experience-listing/experience-listing.component';
 
 const routes: Routes = [
+  { path: '', redirectTo:'project-listing', pathMatch:'full'},
   { path: 'project-listing', component: ProjectListingComponent },
   { path: 'about-me', component: AboutMeComponent },
   { path: 'contact-me', component: ContactMeComponent },
