@@ -8,7 +8,6 @@ import { ProjectItemComponent } from './project-item/project-item.component';
 import { AppRoutingModule, RoutingComponents } from './app-routing.module';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
-import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceListingComponent } from './experience-listing/experience-listing.component';
 import { ExperienceItemComponent } from './experience-item/experience-item.component';
 
@@ -17,7 +16,7 @@ import { ExperienceItemComponent } from './experience-item/experience-item.compo
     AppComponent,
     ProjectListingComponent,
     ProjectItemComponent, 
-    RoutingComponents, AboutMeComponent, ContactMeComponent, ExperienceComponent, ExperienceListingComponent, ExperienceItemComponent
+    RoutingComponents, AboutMeComponent, ContactMeComponent, ExperienceListingComponent, ExperienceItemComponent
   ],
   imports: [
     BrowserModule,
