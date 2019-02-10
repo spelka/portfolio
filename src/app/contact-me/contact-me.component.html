@@ -1,5 +1,5 @@
 <div class="container justify-center">
-  <form #contactForm="ngForm" id="contact-form" method="post" action="contact.ts" role="form">
+  <form #contactForm="ngForm" novalidate (ngSubmit)="onSubmit()" id="contact-form">
     <div class="controls">
 
       {{ contactForm.value | json }}

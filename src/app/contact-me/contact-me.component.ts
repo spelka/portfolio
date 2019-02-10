@@ -23,6 +23,11 @@ export class ContactMeComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit()
+  {
+    console.log(this.contact);
+  }
+
   submitFormDataToModel(username:string, email:string, message:string)
   {
     this.contact.username = username;
