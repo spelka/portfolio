@@ -1,3 +1,48 @@
-<p>
-  contact-me works!
-</p>
+<div class="container justify-center">
+  <form #contactForm="ngForm" id="contact-form" method="post" action="contact.ts" role="form">
+    <div class="controls">
+
+      {{ contactForm.value | json }}
+      <hr/>
+      {{ contact | json }}
+
+      <div class="row">
+        <!-- Name -->
+        <div class="col-md-6">
+          <div class="form-group">
+              <label for="form_name">Name *</label>
+              <input [(ngModel)]="contact.username" #name="ngModel" name="form_name" id="form_name" class="form-control" type="text" placeholder="Your name" required [class.is-invalid]="name.touched && name.invalid"/>
+              <div *ngIf="name.touched && name.invalid">
+                <small class="text-danger">Name is required.<br/></small>
+              </div>
+          </div>
+        </div>
+         <!-- email -->
+        <div class="col-md-6">
+            <div class="form-group">
+              <label for="form_email">E-mail *</label>
+              <input [(ngModel)]="contact.email" #email="ngModel" name="form_email" id="form_email" class="form-control" type="text" placeholder="Your e-mail" required [class.is-invalid]="email.touched && email.invalid" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"/>
+              <div *ngIf="email.errors && (email.touched || email.invalid)">
+                <small *ngIf="email.errors.required && email.touched" class="text-danger">E-mail is required.<br/></small>
+                <small *ngIf="email.errors.pattern" class="text">Required e-mail format: you@example.com<br/></small>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- message -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+              <label for="form_message">Message *</label>
+              <textarea [(ngModel)]="contact.message" #message="ngModel" name="form_message" id="form_message" class="form-control" type="text" placeholder="Your message" required [class.is-invalid]="message.touched && message.invalid"rows="4" ></textarea>
+              <div *ngIf="message.touched && message.invalid">
+                <small class="text-danger">Message cannot be empty.<br/></small>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
