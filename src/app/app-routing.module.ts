@@ -6,11 +6,11 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ExperienceListingComponent } from './experience-listing/experience-listing.component';
 
 const routes: Routes = [
-  { path: '', redirectTo:'project-listing', pathMatch:'full'},
-  { path: 'project-listing', component: ProjectListingComponent },
-  { path: 'about-me', component: AboutMeComponent },
-  { path: 'contact-me', component: ContactMeComponent },
-  { path: 'experience-listing', component: ExperienceListingComponent }
+  { path: '', redirectTo:'project/project-listing', pathMatch:'full'},
+  { path: 'project/project-listing', component: ProjectListingComponent },
+  { path: 'project/about-me', component: AboutMeComponent },
+  { path: 'project/contact-me', component: ContactMeComponent },
+  { path: 'project/experience-listing', component: ExperienceListingComponent }
 ];
 
 @NgModule({
