@@ -12,7 +12,7 @@ export const projects = [
         "id": 2,
         "heading": "To-Do App",
         "name": "Web-based To-Do List",
-        "description": "Plan our your daily tasks with this handy web-based to-do list. Add and remove items as needed. Created with Node.js, Angular7, and Boostrap4.",
+        "description": "Plan our your daily tasks with this handy web-based to-do list. Add and remove items as needed. Created with Angular7 and Boostrap4.",
         "image": "todo-app",
         "link": "https://github.com/spelka/todo-app",
         "linkdescription" : "View on Github" 
@@ -21,7 +21,7 @@ export const projects = [
         "id": 3,
         "heading": "Weather App",
         "name": "Web-based Weather Forecast",
-        "description": "A minimalistic 5-day forecast for major cities across Canada. Accurate weather outlook is provided to you by the Dark Sky API. Created with Node.js, Angular7, and Bootstrap4.",
+        "description": "A minimalistic 5-day forecast for major cities across Canada. Accurate weather outlook is provided to you by the Dark Sky API. Created with Angular7 and Bootstrap4.",
         "image": "weather-app",
         "link": "https://github.com/spelka/weather-web-app",
         "linkdescription" : "View on Github" 
