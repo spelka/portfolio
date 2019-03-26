@@ -5,7 +5,7 @@ export const projects = [
         "name": "A tea timer app for Android",
         "description": "Tea-Da is a simple-yet-elegant app that helps you make sure you never over-steep your tea again. Select your tea type from the menu, set the timer, and let Tea-Da do the rest!",
         "image": "tea-da",
-        "link": "https://play.google.com/apps/testing/ca.sebon.tea_da",
+        "link": "https://play.google.com/store/apps/details?id=ca.sebon.tea_da",
         "linkdescription": "Google Play Store"
     },
     {
